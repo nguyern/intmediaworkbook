@@ -51,6 +51,6 @@ for (var j = 0; j < allElements.length; j++) {
     if (char === ">") isTag = false;
     if (isTag) return type();
     if (text === devTypeText) return;
-    setTimeout(type, 20);
+    setTimeout(type, 15);
   })();
 }
